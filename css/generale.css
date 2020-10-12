@@ -1,0 +1,167 @@
+/* fichier screen*/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+html,body{
+    margin:0;
+    padding:0;
+}
+
+
+ul{ 
+  list-style: none; 
+  }
+
+.container{
+  border:30px solid #c79f1c;
+  border-radius:10px;
+}
+ 
+h1{
+    color:#c79f1c;
+    font-size:3em;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Architects Daughter', cursive;
+    }
+
+  h2,h3,li{
+    color:grey;
+  }
+ 
+  h2{
+    font-size:2em;
+  }
+
+ h3{
+   font-size:1.1em;
+ }
+
+ h4{
+  color:#454442;
+  font-size:1.2em;
+}
+
+h6{
+  color:grey;
+}
+
+p.textcite{
+  font-family: 'Architects Daughter', cursive;
+  font-size:1.5em;
+  font-style:italic;
+  color:grey;
+}
+ p{
+   font-size: 1em;
+   color:grey;
+  }
+ .textpetit{
+   font-size:14px;
+ }
+a{
+    color:grey;
+    font-size: 1em;
+  }
+
+  a.lien:link{
+    color:grey; 
+  }
+
+  a.lien:hover{
+    color:grey;
+   
+  }
+  a img:hover{
+    zoom:0.8;
+  }
+
+  a.lien:active{
+    color:red;
+  }
+
+  a.lien:visited{
+    color:#c79f1c;
+  }
+  a.textcolor{
+    color:grey;
+  }
+
+.cadre{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background:white;
+  height:100px;
+  width:200px;
+}
+  .bordure{
+    border:1px solid rgba(199,159,28,1);
+    border-radius: 20px;
+  }
+
+  .bordure2{
+    border-radius: 20px;
+    border:1px solid rgba(215,167,160,1);
+  }
+
+  .liste ul li{
+    list-style-type: none;
+    color:grey;
+  }
+
+  .fond1{
+    border-radius: 20px;
+    border:1px solid  #d1b2bd;
+  }
+
+  .fond4{
+    border:1px solid  #d1b2bd;
+    background: rgba(221,194,204,0.5);
+    border-radius:60px;
+    margin:10px auto 0 auto;
+    width:80%;
+  }
+  
+
+  .fond2{
+    border-radius: 20px;
+    border:1px solid #a3a099;
+  }
+
+  .fond3{
+    border-radius: 20px;
+    border:1px solid #d1b2bd;
+  }
+
+  .rond1{
+    border-radius:10px;
+  }
+  
+ 
+  .rond{
+    border-radius:50%;
+  }
+
+div.margetop{
+  margin-top:20px;
+}
+
+div.anim {
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  background-color: white;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:pink; left:0px; top:0px;}
+  25%  {background-color:#c79f1c; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:purple; left:0px; top:200px;}
+  100% {background-color:tomato; left:0px; top:0px;}
+}
